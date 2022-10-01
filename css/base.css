@@ -4,6 +4,7 @@ html{
 
 *{
         box-sizing: border-box;
+        font-family: Inter, 'Arial', sans-serif;
       }
 
 :root{
@@ -13,6 +14,58 @@ html{
 
         --color_hero:#ffffff;
         --color_head:#1b0760;
-        --color_body:#4b4264;
+        --color_body:#6c6878;
+
+        --main_font: 'Inter', sans-serif;
+}
+
+body{
+        font-family: var(--main_font);
+        font-size: 1.8rem;
+        line-height: 1.5;
+}
+p{
+        font-size: 1.8rem;
+        color: var(--color_body);
+        font-weight: 400;
+}
+
+
+h1{
+        font-size: 8rem;
+        color: var(--color_hero);
+}
+
+h3{
+        font-size: 4rem;
+        color: var(--color_head);
+}
+
+h4{
+        font-size: 2.4rem;
+        color: var(--color_head);
+}
+h1, h3, h4 {
+        margin: 0 0 1rem 0;
+}
+
+@media screen and (max-width:600px) {
+        h1{
+                font-size: 7rem;
+                color: var(--color_hero);
+        }
+
+        h3{
+                font-size: 3rem;
+                color: var(--color_head);
+        }
+
+        h4{
+                font-size: 2rem;
+                color: var(--color_head);
+        }
+        h1, h3, h4 {
+                margin: 0 0 1rem 0;
+        }
 
 }
