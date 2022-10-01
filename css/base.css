@@ -6,4 +6,13 @@ html{
         box-sizing: border-box;
       }
 
-      
+:root{
+        --color_primary: #2584ff;
+        --color_secondary: #00d9ff;
+        --color_accent:#ff3400;
+
+        --color_hero:#ffffff;
+        --color_head:#1b0760;
+        --color_body:#4b4264;
+
+}
