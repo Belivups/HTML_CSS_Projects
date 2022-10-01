@@ -5,11 +5,13 @@ html{
 *{
         box-sizing: border-box;
         font-family: Inter, 'Arial', sans-serif;
+        text-decoration: none;
+        list-style: none;
       }
 
 :root{
         --color_primary: #2584ff;
-        --color_secondary: #00d9ff;
+        --color_secondary: #029adb;
         --color_accent:#ff3400;
 
         --color_hero:#ffffff;
@@ -21,7 +23,7 @@ html{
 
 body{
         font-family: var(--main_font);
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         line-height: 1.5;
 }
 p{

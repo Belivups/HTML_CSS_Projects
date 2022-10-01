@@ -1,0 +1,33 @@
+.learn-more-btn{
+        color: var(--color_accent);
+        text-transform: uppercase;
+        font-weight: bold;
+}
+
+.learn-more-btn::after{
+        content: "-->";
+        margin-left: 5px;
+        transition: margin 0.25s;
+
+}
+.learn-more-btn:hover::after{
+        margin-left: 10px;
+}
+
+.badges{
+        white-space: nowrap;
+        display: inline-block;
+        border-radius: 20px;
+        color: #ffffff;
+        font-weight: 500;
+}
+.badge-primary{
+        background: var(--color_primary);
+        font-size: 1.3rem;
+        padding: 2px 20px;
+}
+.badge-secondary{
+        background: var(--color_secondary);
+        font-size: 1.3rem;
+        padding: 2px 20px;
+}
