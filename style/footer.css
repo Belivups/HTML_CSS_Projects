@@ -1,0 +1,24 @@
+.footer{
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+}
+
+
+.list-footer a{
+        color: rgb(161, 161, 161);
+        transition: all 0.25s;
+}
+
+.list-footer a:hover{
+        color: rgb(255, 255, 255);
+}
+
+.logo-footer{
+        flex-grow: 1;
+}
+.footer-lists {
+        flex-grow: 0.5;
+}

@@ -1,0 +1,72 @@
+.cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+}
+@media screen and (max-width:830px) {
+        .cards{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+        }
+        .each-card{
+                margin: 1rem 0rem;
+        }
+}
+
+.card-head{
+        background: rgb(40, 144, 254);
+        padding: 2rem 3rem;
+}
+.card-body{
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+}
+.price{
+        display: flex;
+        align-items: center;
+        color: white;
+}
+.badge{
+        padding: 0.5rem 1rem;
+        background: rgb(23, 169, 188);
+        color: white;
+        font-weight: 500;
+        border-radius: 100px;
+        display: inline-block;
+}
+.price h2, .price p{
+        padding-right: 10px;
+        color: white;
+} 
+.card-head p{
+        color: white;
+        font-size: 1.5rem;
+}
+.card-head h5{
+        font-size: 1.5rem;
+        color: white;
+}
+.each-card{
+        border-radius: 10px;
+        overflow: hidden;
+        background: fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.card-body ul li{
+        list-style-image: url('/icons/tick.svg');
+        list-style-position: inside;
+}
+.card-btn{
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        text-align: center;
+        border-radius: 50px;
+}
+.card-btn:hover{
+        background: rgb(179, 1, 1);
+}

@@ -1,0 +1,80 @@
+
+        
+.domains{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+}
+.info p{
+        max-width: 60rem;
+}
+.tld ul li{
+        display: inline-block;
+        padding: 0 1rem;
+}
+@media screen and (max-width:530px) {
+        .tld ul li{
+        display: inline-block;
+        padding: 0 0.5rem;
+}
+}
+.tld ul :nth-child(2){
+        background: red;
+        color: white;
+        padding: 0rem 1rem;
+        border-radius: 5rem;
+        font-weight: bold;
+}
+.search-area{
+        background: rgb(255, 255, 255);
+        border: 2px solid rgb(215, 215, 215);
+        border-radius: 50px;
+        display: flex;
+        flex-wrap: 1;
+        flex-direction: row;
+        padding: 2px 2px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px;
+        
+}
+.search-input-field{
+        padding: 1.5rem 4rem;
+        border-radius: 30px;
+        outline: 0;
+        color: red;
+        font-size: 1.5rem;
+        border: 0;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.search-btn{
+        background: red;
+        border: 0;
+        color: white;
+        padding: 0 5rem;
+        border-radius: 30px;
+        text-transform: uppercase;
+        font-weight: 500;
+        cursor: pointer;
+
+
+}
+
+.search-btn:hover{
+        background: rgb(255, 47, 47);
+        cursor: pointer;
+}
+.search{
+        width: 70%;
+        cursor: pointer;
+
+}
+@media screen and (max-width:750px) {
+        .search{
+                width: auto
+        }
+}

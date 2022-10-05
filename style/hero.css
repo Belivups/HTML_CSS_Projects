@@ -1,0 +1,50 @@
+
+
+.hero{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background: black;
+        height: 600px;
+}
+
+.hero-info h1{
+        color: white;
+
+}
+
+.image-res{
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+}
+.hero-info p{
+        font-size: 2rem;
+        color: white;
+}
+
+.button-header:hover{
+        background: rgb(198, 9, 9);
+}
+
+@media screen and (max-width:850px) {
+        .hero{
+                flex-direction: column;
+                padding: 120px 0px;
+        }
+        .hero-info{
+                text-align: center;
+        }
+
+        .image-res {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+         }
+        .hero{
+        height: 800px;
+}
+
+}
